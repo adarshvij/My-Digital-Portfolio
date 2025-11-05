@@ -32,7 +32,7 @@ export default function About() {
 
               <div>
                 <h3 className="font-semibold text-foreground mb-2">Specialization</h3>
-                <p className="text-muted-foreground">Data Science (Final Year)</p>
+                <p className="text-muted-foreground">Data Science</p>
               </div>
 
               <div>
