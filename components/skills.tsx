@@ -11,9 +11,6 @@ export default function Skills() {
     "C++",
     "C",
     "HTML",
-    "JavaScript",
-    "Node.js",
-    "Express.js",
     "MongoDB",
     "React",
   ]

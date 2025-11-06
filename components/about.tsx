@@ -41,7 +41,7 @@ export default function About() {
               <div>
                 <h3 className="font-semibold text-foreground mb-2">Interests</h3>
                 <p className="text-muted-foreground">
-                  Data Science, Machine Learning, Backend Development, Data Analytics
+                  Data Science, Machine Learning, Backend Development, Data Analytics, Stock Market
                 </p>
               </div>
             </div>
