@@ -14,6 +14,7 @@ export default function Projects() {
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://github.com/adarshvij/Music-player",
       type: "Frontend",
+      image: "/musicflow.png", // added project image
     },
     {
       title: "Track Management System",
@@ -22,6 +23,7 @@ export default function Projects() {
       tech: ["Node.js", "Express.js", "MongoDB"],
       link: "#",
       type: "Backend",
+      image: "/trackguard.jpg", // added project image for AI-TrackGuard
     },
   ]
 
@@ -40,8 +42,18 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-background rounded-lg p-8 border border-border hover:border-accent transition-colors group"
+              className="bg-background rounded-lg p-8 border border-border hover:border-accent transition-colors group overflow-hidden"
             >
+              {project.image && (
+                <div className="mb-6 rounded-lg overflow-hidden h-48 bg-muted">
+                  <img
+                    src={project.image || "/placeholder.svg"}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
+
               <div className="flex items-start justify-between mb-4">
                 <h3 className="text-2xl font-semibold text-foreground group-hover:text-accent transition-colors">
                   {project.title}
