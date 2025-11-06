@@ -27,7 +27,10 @@ export default function About() {
             <div className="space-y-4">
               <div>
                 <h3 className="font-semibold text-foreground mb-2">Education</h3>
-                <p className="text-muted-foreground">Master of Computer Applications (MCA) @ LPU (2025–2027)</p>
+                <p className="text-muted-foreground">Master of Computer Applications (MCA) @ LPU (2025–Present) </p>
+                <p className="text-muted-foreground">BSC Computer Science @ GDC,Panchkula (2022-2025)</p>
+                <p className="text-muted-foreground">12th @ PDAV Public School, Ambala (2019-2020)</p>
+                <p className="text-muted-foreground">Matriculate @ PDAV Public School, Ambala(2017-2018)</p>
               </div>
 
               <div>
